@@ -1,0 +1,17 @@
+.row {
+    display: flex;
+}
+
+article {
+    flex-flow: row;
+    flex-basis: 50%;
+    margin: 20px;
+}
+
+/* Give each article a different border color. */
+#firstArticle {
+    border: 2px solid aquamarine;
+}
+#secondArticle {
+    border: 2px solid salmon;
+}
